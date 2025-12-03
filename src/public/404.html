@@ -1,0 +1,62 @@
+<!-- public/404.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found - Stationery Donation</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #E0F7FA 0%, #f9fafb 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+    .container {
+      max-width: 600px;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 20px 60px rgba(79, 172, 254, 0.2);
+    }
+    h1 {
+      color: #1f2937;
+      margin-bottom: 20px;
+    }
+    p {
+      color: #4b5563;
+      margin-bottom: 30px;
+    }
+    a {
+      display: inline-block;
+      padding: 12px 24px;
+      background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+      color: white;
+      text-decoration: none;
+      border-radius: 12px;
+      font-weight: 600;
+      transition: transform 0.3s;
+    }
+    a:hover {
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Page Not Found</h1>
+    <p>The page you're looking for doesn't exist or has been moved.</p>
+    <a href="/stationery-donation/">← Back to Home</a>
+  </div>
+  <script>
+    // Auto-redirect to main app
+    setTimeout(() => {
+      window.location.href = '/stationery-donation/';
+    }, 3000);
+  </script>
+</body>
+</html>

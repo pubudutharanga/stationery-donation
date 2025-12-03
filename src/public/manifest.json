@@ -1,0 +1,16 @@
+{
+  "name": "Stationery Donation Sri Lanka",
+  "short_name": "Donate Stationery",
+  "description": "Donate stationery to underprivileged students in Sri Lanka",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#4facfe",
+  "background_color": "#E0F7FA",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}
